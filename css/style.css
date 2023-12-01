@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+.clearfix{
+    clear: both;
+}
+.float-item{
+    float: left;
+}
+.logo{
+    width: 30%;
+}
+.list{
+    width: 45%;
+}
+.list-item{
+    display: inline-block;
+    padding-left: 20px;
+
+}
+.navbar{
+    padding: 20px 0 ;
+
+}
+.navlink{
+    text-transform: capitalize;
+    color: black;
+}
+i{
+    color: blue;
+    padding-right:20px ;
+   
+}
+.button{
+    color: black;
+    border: 1px solid blue;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-transform: capitalize;
+}
+.list,.icons{
+    padding-top: 10px;
+}
+/* Header*/
+.header-image{
+    width: 40%;
+
+}
+.header-image img{
+    width: 100%;
+}
+.header-content{
+    width: 55%;
+    padding-top: 170px;
+    padding-left: 60px;
+}
+h1{
+    padding: 18px 0;
+    text-transform: uppercase;
+}
+.short-bio{
+    font-size:25px ;
+    color:#333 ;
+}
+.description{
+    color: #333;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+.header-content .button{
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+}
+/* main product */
+.main-product{
+    margin-top: 50px;
+}
+.main-product .container .float-item{
+    width: 33.33%;
+    padding-left: 10px;
+}
+.main-product .container .float-item img{
+    width: 100%;
+}
+/*trend product*/
+.trend-product{
+    margin-top: 100px;
+
+
+}
+.products{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.border-bottom{
+    border-bottom:2px solid blue ;
+}
+.trend-product .float-item{
+    width: 25%;
+
+}
+.products .float-item img{
+    width: 100%;
+    text-align: center;
+}
